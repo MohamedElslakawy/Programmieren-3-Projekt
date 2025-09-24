@@ -1,0 +1,23 @@
+/*
+  Author: Fighan Suliman
+  Version: 1.0
+  Datum: 24.09.2025
+
+  Basis-Styles für die gesamte App, inkl. Body und Code-Schriftarten.
+*/
+
+/* Grundlegende Styles für das Body-Element */
+body {
+  margin: 0; /* Entfernt Standardabstand */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; /* System- und Fallback-Schriften */
+  -webkit-font-smoothing: antialiased; /* Glättung für Webkit-Browser */
+  -moz-osx-font-smoothing: grayscale; /* Glättung für Firefox auf macOS */
+}
+
+/* Styles für Code-Elemente */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* Monospace-Schrift für Code */
+}
